@@ -5,7 +5,7 @@ const categoryPromise = fetch('/categories.json').then((res) =>
 );
 const Categories = () => {
   const categories = use(categoryPromise);
-  console.log(categories);
+  // console.log(categories);
 
   return (
      <>
